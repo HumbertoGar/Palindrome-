@@ -12,7 +12,7 @@ const palindromes = function(str = "") {
             strLong--;
         }
     }
-    console.log(strInver);
+
     
        if (strInver.toLowerCase === str.toLowerCase) {
            return true;
@@ -21,7 +21,8 @@ const palindromes = function(str = "") {
        }
     }
     
-    console.log(palindromoFunc("salas"));
+    console.log(palindromes("salas"));
+    console.log(palindromes("perro"));
 
 
 
