@@ -1,7 +1,7 @@
 
 const palindromes = (str) => str.split('').reverse().join('') == str
-    console.log(palindromes("salas"));
-    console.log(palindromes("perro"));
+    console.log('Salas ' + palindromes("salas"));
+    console.log('Perro ' + palindromes("perro"));
 
 
 module.exports = palindromes
